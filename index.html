@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><i class="fa fa-bullseye"></i>PurposePal</a>
+        <a class="navbar-brand" href="#"><i class="fa fa-bullseye"></i> PurposePal</a>
     </div>
     <div class="navbar-collapse collapse navbar-inverse-collapse">
 
@@ -49,59 +49,15 @@
 
 
 
-        <div class="clearfix"></div>
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Simple Social Sign In </h4>
-                    </div>
-                    <div class="modal-body">
 
-                        <div>
-                            <div class="row" ng-hide="auth.user">
-
-                                <div class="col-md-4" >
-
-                                    <button class="btn  btn-primary btn-block" ng-click="auth.$login('google')"><i class="fa fa-google"></i>  login</button>
-                                </div>
-                                <div class="col-md-4" >
-
-                                    <button class="btn t btn-primary btn-block" ng-click="auth.$login('facebook')"><i class="fa fa-facebook"></i> login</button>
-                                </div>
-                                <div class="col-md-4">
-
-                                    <button class="btn  btn-primary btn-block" ng-click="auth.$login('twitter')"><i class="fa fa-twitter"></i> login</button>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-
-                        <div ng-show="auth.user">
-                            <p class="text-success">{{auth.user.displayName}} succesfully signed in!</p>
-                        </div>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
 
 
 
         <div class="row">
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h3>Hello.</h3></div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><h3>Get to Know Yourself</h3></div>
                     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
                         Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
                         dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
@@ -110,8 +66,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h3>Hello.</h3></div>
+                <div class="panel panel-info">
+                    <div class="panel-heading"><h3>Align to your Purpose</h3></div>
                     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
                         Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
                         dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
@@ -120,8 +76,8 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h3>Hello.</h3></div>
+                <div class="panel panel-success">
+                    <div class="panel-heading"><h3>Make an Action Plan.</h3></div>
                     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate.
                         Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis
                         dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan.
